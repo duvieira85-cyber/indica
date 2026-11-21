@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mente Ativa | Indicações e Recursos para Terceira Idade</title>
+  <style>
+    :root {
+      --bg: #0f172a;
+      --card-bg: #1e293b;
+      --card-hover: #334155;
+      --primary: #2563eb;
+      --primary-hover: #1d4ed8;
+      --accent: #f59e0b;
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --border: #334155;
+    }
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    }
+    body {
+      background-color: var(--bg);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 24px 16px;
+    }
+    .container {
+      width: 100%;
+      max-width: 520px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+    .header {
+      text-align: center;
+      margin-bottom: 8px;
+    }
+    .avatar {
+      width: 88px;
+      height: 88px;
+      background: linear-gradient(135deg, #2563eb, #38bdf8);
+      border-radius: 50%;
+      margin: 0 auto 12px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 40px;
+      box-shadow: 0 4px 14px rgba(37, 99, 235, 0.4);
+    }
+    h1 {
+      font-size: 24px;
+      font-weight: 700;
+      letter-spacing: -0.5px;
+      color: #ffffff;
+      margin-bottom: 6px;
+    }
+    .subtitle {
+      font-size: 15px;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+    .section-title {
+      font-size: 13px;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      color: var(--text-muted);
+      margin-top: 10px;
+      margin-bottom: 2px;
+      font-weight: 600;
+      padding-left: 4px;
+    }
+    .featured-card {
+      background: linear-gradient(135deg, #1e3a8a, #1e40af);
+      border: 2px solid #3b82f6;
+      border-radius: 16px;
+      padding: 20px;
+      text-decoration: none;
+      color: white;
+      display: block;
+      transition: transform 0.2s, box-shadow 0.2s;
+      position: relative;
+      overflow: hidden;
+    }
+    .featured-card:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 8px 24px rgba(37, 99, 235, 0.35);
+    }
+    .badge {
+      display: inline-block;
+      background: var(--accent);
+      color: #0f172a;
+      font-size: 12px;
+      font-weight: 800;
+      padding: 4px 10px;
+      border-radius: 20px;
+      text-transform: uppercase;
+      letter-spacing: 0.5px;
+      margin-bottom: 8px;
+    }
+    .featured-card h2 {
+      font-size: 20px;
+      margin-bottom: 6px;
+      font-weight: 700;
+    }
+    .featured-card p {
+      font-size: 14px;
+      color: #e2e8f0;
+      line-height: 1.4;
+      margin-bottom: 14px;
+    }
+    .btn-action {
+      background: #ffffff;
+      color: #1e3a8a;
+      font-weight: 700;
+      font-size: 15px;
+      padding: 12px 20px;
+      border-radius: 10px;
+      text-align: center;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 8px;
+    }
+    .link-card {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 16px;
+      text-decoration: none;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      transition: background 0.2s, transform 0.2s;
+    }
+    .link-card:hover {
+      background: var(--card-hover);
+      transform: translateY(-2px);
+    }
+    .card-icon {
+      font-size: 26px;
+      width: 44px;
+      height: 44px;
+      background: rgba(255, 255, 255, 0.05);
+      border-radius: 10px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-shrink: 0;
+    }
+    .card-content {
+      flex: 1;
+    }
+    .card-title {
+      font-size: 16px;
+      font-weight: 600;
+      margin-bottom: 2px;
+      color: #ffffff;
+    }
+    .card-desc {
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+    .card-tag {
+      font-size: 11px;
+      background: rgba(255, 255, 255, 0.1);
+      padding: 2px 6px;
+      border-radius: 4px;
+      margin-left: 6px;
+      color: #93c5fd;
+    }
+    .social-row {
+      display: flex;
+      gap: 10px;
+      margin-top: 8px;
+    }
+    .social-btn {
+      flex: 1;
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 12px;
+      text-align: center;
+      text-decoration: none;
+      color: var(--text);
+      font-size: 14px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: background 0.2s;
+    }
+    .social-btn:hover {
+      background: var(--card-hover);
+    }
+    footer {
+      margin-top: 32px;
+      text-align: center;
+      font-size: 12px;
+      color: #64748b;
+      max-width: 460px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <div class="avatar">🧠</div>
+      <h1>Mente Ativa Letra Grande</h1>
+      <p class="subtitle">Desafios diários de raciocínio, memória e estimulação cognitiva para idosos e terceira idade.</p>
+    </div>
+
+    <!-- PRODUTO PRINCIPAL -->
+    <a href="https://go.hotmart.com/H108495962U" target="_blank" rel="noopener noreferrer" class="featured-card">
+      <span class="badge">⭐ Mais Recomendado</span>
+      <h2>Caderno Mente Ativa (PDF)</h2>
+      <p>Mais de 250 atividades em letra grande para imprimir: caça-palavras, jogo dos 7 erros, labirintos e ditados com gabarito completo.</p>
+      <div class="btn-action">
+        <span>Acessar Caderno Completo</span>
+        <span>→</span>
+      </div>
+    </a>
+
+    <!-- RECOMENDAÇÕES ÚTEIS -->
+    <div class="section-title">Recomendações para Idosos</div>
+
+    <a href="https://meli.la/1SPuBSQ" target="_blank" rel="noopener noreferrer" class="link-card">
+      <div class="card-icon">🔍</div>
+      <div class="card-content">
+        <div class="card-title">Lupa 12x com LED <span class="card-tag">Mercado Livre</span></div>
+        <div class="card-desc">Leitura sem esforço e iluminação suave para a vista.</div>
+      </div>
+    </a>
+
+    <a href="https://www.amazon.com.br/s?k=jogo+de+memoria+idosos&tag=menteativa06-20" target="_blank" rel="noopener noreferrer" class="link-card">
+      <div class="card-icon">🧩</div>
+      <div class="card-content">
+        <div class="card-title">Jogos de Memória <span class="card-tag">Amazon</span></div>
+        <div class="card-desc">Exercícios práticos de raciocínio e atenção para fazer junto.</div>
+      </div>
+    </a>
+
+    <a href="https://www.amazon.com.br/s?k=relogio+de+parede+numeros+grandes&tag=menteativa06-20" target="_blank" rel="noopener noreferrer" class="link-card">
+      <div class="card-icon">⏰</div>
+      <div class="card-content">
+        <div class="card-title">Relógio com Números Grandes <span class="card-tag">Amazon</span></div>
+        <div class="card-desc">Facilita a orientação temporal e rotina em casa.</div>
+      </div>
+    </a>
+
+    <a href="https://www.amazon.com.br/s?k=quebra+cabeca+grande+pecas&tag=menteativa06-20" target="_blank" rel="noopener noreferrer" class="link-card">
+      <div class="card-icon">🎨</div>
+      <div class="card-content">
+        <div class="card-title">Quebra-Cabeça Peças Grandes <span class="card-tag">Amazon</span></div>
+        <div class="card-desc">Estimula a coordenação motora fina e paciência.</div>
+      </div>
+    </a>
+
+    <a href="https://www.amazon.com.br/s?k=giz+de+cera+jumbo&tag=menteativa06-20" target="_blank" rel="noopener noreferrer" class="link-card">
+      <div class="card-icon">✏️</div>
+      <div class="card-content">
+        <div class="card-title">Lápis / Giz Grosso Jumbo <span class="card-tag">Amazon</span></div>
+        <div class="card-desc">Pegada firme e ergonômica para mãos cansadas.</div>
+      </div>
+    </a>
+
+    <!-- PROJETO PARCEIRO -->
+    <div class="section-title">Canal Parceiro</div>
+    <a href="ponto-de-virada.html" class="link-card" style="border-color: #d4a853; background: linear-gradient(135deg, #1c160e, #261e14);">
+      <div class="card-icon" style="background: rgba(212, 168, 83, 0.2);">🎙️</div>
+      <div class="card-content">
+        <div class="card-title" style="color: #edd08a;">Ponto de Virada Pod <span class="card-tag" style="background: rgba(212, 168, 83, 0.25); color: #edd08a;">Setup & Finanças</span></div>
+        <div class="card-desc" style="color: #cdc4b6;">Livros e equipamentos de produtividade para desenvolvimento pessoal.</div>
+      </div>
+    </a>
+
+    <!-- REDES SOCIAIS -->
+    <div class="section-title">Nossas Redes</div>
+    <div class="social-row">
+      <a href="https://www.youtube.com/@menteativa.letragrande" target="_blank" rel="noopener noreferrer" class="social-btn">
+        <span>▶️ YouTube</span>
+      </a>
+      <a href="https://www.tiktok.com/@eduardolionvieira" target="_blank" rel="noopener noreferrer" class="social-btn">
+        <span>🎵 TikTok</span>
+      </a>
+      <a href="https://www.instagram.com/menteativa.letragrande/" target="_blank" rel="noopener noreferrer" class="social-btn">
+        <span>📸 Instagram</span>
+      </a>
+    </div>
+
+    <footer>
+      <p>Como Associado da Amazon e parceiros, recebemos comissão por compras qualificadas.</p>
+      <p style="margin-top: 4px;">© Mente Ativa Letra Grande. Todos os direitos reservados.</p>
+    </footer>
+  </div>
+</body>
+</html>

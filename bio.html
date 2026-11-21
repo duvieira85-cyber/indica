@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#0d0f12">
+  <meta name="description" content="Central Oficial de Indicações, Livros, Setup & Cadernos de Atividades.">
+  <title>Central de Links & Indicações Oficiais</title>
+  <style>
+    :root {
+      --bg: #090b0e;
+      --card-bg: #14181f;
+      --card-hover: #1c222c;
+      --border: rgba(255, 255, 255, 0.08);
+      --border-active: rgba(212, 168, 83, 0.6);
+      --text: #f8fafc;
+      --text-muted: #94a3b8;
+      --gold: #d4a853;
+      --gold-light: #edd08a;
+      --blue: #3b82f6;
+      --blue-light: #60a5fa;
+      --meli: #ffe600;
+    }
+
+    * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
+
+    body {
+      background-color: var(--bg);
+      background-image: radial-gradient(circle at 50% 0%, rgba(59, 130, 246, 0.08), transparent 50%),
+                        radial-gradient(circle at 80% 80%, rgba(212, 168, 83, 0.06), transparent 40%);
+      color: var(--text);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      min-height: 100vh;
+      padding: 32px 16px 48px;
+      -webkit-font-smoothing: antialiased;
+    }
+
+    .container {
+      width: 100%;
+      max-width: 520px;
+      display: flex;
+      flex-direction: column;
+      gap: 16px;
+    }
+
+    /* Profile Header */
+    .header {
+      text-align: center;
+      margin-bottom: 4px;
+    }
+
+    .avatar-wrapper {
+      position: relative;
+      width: 88px;
+      height: 88px;
+      margin: 0 auto 12px;
+    }
+
+    .avatar-img {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: linear-gradient(135deg, #2563eb, #d4a853);
+      padding: 3px;
+      box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
+    }
+
+    .avatar-inner {
+      width: 100%;
+      height: 100%;
+      border-radius: 50%;
+      background: #10141b;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 36px;
+    }
+
+    h1 {
+      font-size: 24px;
+      font-weight: 800;
+      color: #ffffff;
+      margin-bottom: 4px;
+      letter-spacing: -0.4px;
+    }
+
+    .tagline {
+      font-size: 14px;
+      color: var(--text-muted);
+      line-height: 1.4;
+      max-width: 440px;
+      margin: 0 auto;
+    }
+
+    /* Tabs Selector */
+    .tabs-nav {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      background: rgba(255, 255, 255, 0.03);
+      border: 1px solid var(--border);
+      padding: 6px;
+      border-radius: 14px;
+      margin-top: 8px;
+    }
+
+    .tab-btn {
+      background: transparent;
+      border: none;
+      color: var(--text-muted);
+      font-size: 13px;
+      font-weight: 700;
+      padding: 10px 14px;
+      border-radius: 10px;
+      cursor: pointer;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: all 0.2s ease;
+    }
+
+    .tab-btn.active {
+      background: var(--card-bg);
+      color: #ffffff;
+      border: 1px solid rgba(255, 255, 255, 0.12);
+      box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+    }
+
+    .tab-btn.active.pod {
+      border-color: rgba(212, 168, 83, 0.4);
+      color: var(--gold-light);
+    }
+
+    .tab-btn.active.mente {
+      border-color: rgba(59, 130, 246, 0.4);
+      color: var(--blue-light);
+    }
+
+    /* Section Panels */
+    .tab-panel {
+      display: none;
+      flex-direction: column;
+      gap: 12px;
+      animation: fadeIn 0.25s ease;
+    }
+
+    .tab-panel.active {
+      display: flex;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(4px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+
+    .section-label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      font-weight: 700;
+      color: var(--text-muted);
+      margin-top: 8px;
+      margin-bottom: 2px;
+      padding-left: 2px;
+    }
+
+    /* Featured Hero Banner */
+    .hero-card {
+      border-radius: 16px;
+      padding: 18px 20px;
+      text-decoration: none;
+      color: #ffffff;
+      display: block;
+      transition: transform 0.2s, box-shadow 0.2s;
+      position: relative;
+      overflow: hidden;
+    }
+
+    .hero-card:hover {
+      transform: translateY(-2px);
+    }
+
+    .hero-pod {
+      background: linear-gradient(135deg, #261e14, #14100b);
+      border: 1.5px solid rgba(212, 168, 83, 0.5);
+      box-shadow: 0 8px 24px rgba(212, 168, 83, 0.15);
+    }
+
+    .hero-mente {
+      background: linear-gradient(135deg, #1e3a8a, #0f172a);
+      border: 1.5px solid rgba(59, 130, 246, 0.5);
+      box-shadow: 0 8px 24px rgba(37, 99, 235, 0.2);
+    }
+
+    .pill-badge {
+      display: inline-block;
+      font-size: 10px;
+      font-weight: 800;
+      text-transform: uppercase;
+      letter-spacing: 0.6px;
+      padding: 3px 9px;
+      border-radius: 999px;
+      margin-bottom: 8px;
+    }
+
+    .hero-pod .pill-badge { background: #ffe600; color: #1e1b04; }
+    .hero-mente .pill-badge { background: #f59e0b; color: #0f172a; }
+
+    .hero-card h2 {
+      font-size: 18px;
+      font-weight: 750;
+      line-height: 1.3;
+      margin-bottom: 4px;
+    }
+
+    .hero-card p {
+      font-size: 13px;
+      color: #cbd5e1;
+      line-height: 1.4;
+      margin-bottom: 12px;
+    }
+
+    .hero-btn {
+      background: #ffffff;
+      color: #0f172a;
+      font-size: 13px;
+      font-weight: 700;
+      padding: 10px 14px;
+      border-radius: 10px;
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+    }
+
+    /* Cards */
+    .link-row {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 14px 16px;
+      text-decoration: none;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      transition: transform 0.2s, background-color 0.2s, border-color 0.2s;
+    }
+
+    .link-row:hover {
+      background: var(--card-hover);
+      border-color: rgba(255, 255, 255, 0.16);
+      transform: translateY(-2px);
+    }
+
+    .icon-box {
+      width: 44px;
+      height: 44px;
+      border-radius: 11px;
+      background: rgba(255, 255, 255, 0.05);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 22px;
+      flex-shrink: 0;
+    }
+
+    .info-box {
+      flex: 1;
+      min-width: 0;
+    }
+
+    .title-row {
+      display: flex;
+      align-items: center;
+      gap: 6px;
+      margin-bottom: 2px;
+    }
+
+    .item-name {
+      font-size: 14.5px;
+      font-weight: 650;
+      color: #ffffff;
+      white-space: nowrap;
+      overflow: hidden;
+      text-overflow: ellipsis;
+    }
+
+    .tag-store {
+      font-size: 9.5px;
+      font-weight: 750;
+      text-transform: uppercase;
+      padding: 2px 6px;
+      border-radius: 4px;
+      letter-spacing: 0.4px;
+      flex-shrink: 0;
+    }
+
+    .tag-meli { background: rgba(255, 230, 0, 0.12); color: #ffe600; border: 1px solid rgba(255, 230, 0, 0.25); }
+    .tag-amazon { background: rgba(252, 163, 17, 0.12); color: #fca311; border: 1px solid rgba(252, 163, 17, 0.25); }
+    .tag-hotmart { background: rgba(255, 87, 34, 0.12); color: #ff5722; border: 1px solid rgba(255, 87, 34, 0.25); }
+
+    .item-desc {
+      font-size: 12.5px;
+      color: var(--text-muted);
+      line-height: 1.35;
+    }
+
+    .arrow {
+      color: var(--text-muted);
+      flex-shrink: 0;
+      transition: transform 0.2s, color 0.2s;
+    }
+
+    .link-row:hover .arrow {
+      transform: translateX(3px);
+      color: #ffffff;
+    }
+
+    /* Social Bottom */
+    .social-grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: 8px;
+    }
+
+    .btn-net {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 12px;
+      padding: 10px;
+      text-decoration: none;
+      color: var(--text-muted);
+      font-size: 13px;
+      font-weight: 600;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+      transition: background 0.2s, color 0.2s;
+    }
+
+    .btn-net:hover {
+      background: var(--card-hover);
+      color: #ffffff;
+    }
+
+    footer {
+      margin-top: 24px;
+      text-align: center;
+      font-size: 11.5px;
+      color: #64748b;
+      line-height: 1.5;
+      padding-top: 14px;
+      border-top: 1px solid var(--border);
+      max-width: 440px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="avatar-wrapper">
+        <div class="avatar-img">
+          <div class="avatar-inner">⚡</div>
+        </div>
+      </div>
+      <h1>Central de Recomendações</h1>
+      <p class="tagline">Curadoria oficial de equipamentos, produtividade, livros e materiais para exercitar a mente.</p>
+    </header>
+
+    <!-- Tab Selector -->
+    <div class="tabs-nav">
+      <button class="tab-btn active pod" onclick="setTab('pod')">🎙️ Ponto de Virada Pod</button>
+      <button class="tab-btn mente" onclick="setTab('mente')">🧠 Mente Ativa</button>
+    </div>
+
+    <!-- PANEL 1: PONTO DE VIRADA POD -->
+    <div id="panel-pod" class="tab-panel active">
+      <!-- DESTAQUE MERCADO LIVRE -->
+      <a href="https://meli.la/1C7yAcn" target="_blank" rel="noopener noreferrer" class="hero-card hero-pod">
+        <span class="pill-badge">Destaque do Setup</span>
+        <h2>Kit Microfone Condensador USB Profissional</h2>
+        <p>Braço articulado, shock mount e pop filter. Áudio com clareza de estúdio no Mercado Livre.</p>
+        <div class="hero-btn">Conferir Oferta no Mercado Livre →</div>
+      </a>
+
+      <div class="section-label">Equipamentos & Gadgets de Produtividade</div>
+
+      <a href="https://meli.la/16fpFoe" target="_blank" rel="noopener noreferrer" class="link-row">
+        <div class="icon-box">💡</div>
+        <div class="info-box">
+          <div class="title-row">
+            <span class="item-name">Barra de Luz LED Screenbar</span>
+            <span class="tag-store tag-meli">Mercado Livre</span>
+          </div>
+          <div class="item-desc">Iluminação para teclado sem reflexo na tela do monitor.</div>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://meli.la/1ja1CAN" target="_blank" rel="noopener noreferrer" class="link-row">
+        <div class="icon-box">📅</div>
+        <div class="info-box">
+          <div class="title-row">
+            <span class="item-name">Planner Financeiro & Metas</span>
+            <span class="tag-store tag-meli">Mercado Livre</span>
+          </div>
+          <div class="item-desc">Controle de receitas, despesas e organização de hábitos.</div>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://meli.la/1ADVdqB" target="_blank" rel="noopener noreferrer" class="link-row">
+        <div class="icon-box">💻</div>
+        <div class="info-box">
+          <div class="title-row">
+            <span class="item-name">Suporte Notebook Alumínio</span>
+            <span class="tag-store tag-meli">Mercado Livre</span>
+          </div>
+          <div class="item-desc">8 níveis ergonômicos e design dobrável portátil.</div>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://meli.la/1addkaX" target="_blank" rel="noopener noreferrer" class="link-row">
+        <div class="icon-box">🛋️</div>
+        <div class="info-box">
+          <div class="title-row">
+            <span class="item-name">Luminária Articulada c/ Garra</span>
+            <span class="tag-store tag-meli">Mercado Livre</span>
+          </div>
+          <div class="item-desc">Fixação prática para bancada e foco em leitura.</div>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+
+      <div class="section-label">Livros de Mentalidade & Dinheiro (Amazon BR)</div>
+
+      <a href="https://www.amazon.com.br/dp/6555111100?tag=menteativa06-20" target="_blank" rel="noopener noreferrer" class="link-row">
+        <div class="icon-box">📖</div>
+        <div class="info-box">
+          <div class="title-row">
+            <span class="item-name">A Psicologia Financeira</span>
+            <span class="tag-store tag-amazon">Amazon BR</span>
+          </div>
+          <div class="item-desc">Morgan Housel — Lições atemporais sobre riqueza e tempo.</div>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://www.amazon.com.br/dp/8550807567?tag=menteativa06-20" target="_blank" rel="noopener noreferrer" class="link-row">
+        <div class="icon-box">🎯</div>
+        <div class="info-box">
+          <div class="title-row">
+            <span class="item-name">Hábitos Atômicos</span>
+            <span class="tag-store tag-amazon">Amazon BR</span>
+          </div>
+          <div class="item-desc">James Clear — O poder da melhora de 1% ao dia.</div>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://www.amazon.com.br/dp/8550801488?tag=menteativa06-20" target="_blank" rel="noopener noreferrer" class="link-row">
+        <div class="icon-box">💼</div>
+        <div class="info-box">
+          <div class="title-row">
+            <span class="item-name">Pai Rico, Pai Pobre</span>
+            <span class="tag-store tag-amazon">Amazon BR</span>
+          </div>
+          <div class="item-desc">Robert Kiyosaki — Ativos, passivos e liberdade.</div>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+
+      <div class="section-label">Canais Oficiais do Podcast</div>
+      <div class="social-grid">
+        <a href="https://www.youtube.com/@pontodeviradapod" target="_blank" rel="noopener noreferrer" class="btn-net">▶️ YouTube Pod</a>
+        <a href="https://www.instagram.com/pontodeviradapod/" target="_blank" rel="noopener noreferrer" class="btn-net">📸 Instagram Pod</a>
+      </div>
+    </div>
+
+    <!-- PANEL 2: MENTE ATIVA LETRA GRANDE -->
+    <div id="panel-mente" class="tab-panel">
+      <!-- DESTAQUE HOTMART -->
+      <a href="https://go.hotmart.com/H108495962U" target="_blank" rel="noopener noreferrer" class="hero-card hero-mente">
+        <span class="pill-badge">Caderno Completo</span>
+        <h2>Caderno Mente Ativa (PDF para Imprimir)</h2>
+        <p>Mais de 250 desafios em letra grande: caça-palavras, 7 erros, labirintos e ditados com gabarito.</p>
+        <div class="hero-btn">Acessar no Hotmart →</div>
+      </a>
+
+      <div class="section-label">Recursos & Conforto para a Terceira Idade</div>
+
+      <a href="https://meli.la/1SPuBSQ" target="_blank" rel="noopener noreferrer" class="link-row">
+        <div class="icon-box">🔍</div>
+        <div class="info-box">
+          <div class="title-row">
+            <span class="item-name">Lupa 12x com Iluminação LED</span>
+            <span class="tag-store tag-meli">Mercado Livre</span>
+          </div>
+          <div class="item-desc">Leitura nítida e confortável para a visão sem cansar a vista.</div>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://www.amazon.com.br/s?k=jogo+de+memoria+idosos&tag=menteativa06-20" target="_blank" rel="noopener noreferrer" class="link-row">
+        <div class="icon-box">🧩</div>
+        <div class="info-box">
+          <div class="title-row">
+            <span class="item-name">Jogos de Memória e Cognição</span>
+            <span class="tag-store tag-amazon">Amazon BR</span>
+          </div>
+          <div class="item-desc">Exercícios dinâmicos de raciocínio para praticar em família.</div>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://www.amazon.com.br/s?k=relogio+de+parede+numeros+grandes&tag=menteativa06-20" target="_blank" rel="noopener noreferrer" class="link-row">
+        <div class="icon-box">⏰</div>
+        <div class="info-box">
+          <div class="title-row">
+            <span class="item-name">Relógio de Parede Números Grandes</span>
+            <span class="tag-store tag-amazon">Amazon BR</span>
+          </div>
+          <div class="item-desc">Facilita a visualização das horas e a rotina da casa.</div>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+
+      <a href="https://www.amazon.com.br/s?k=quebra+cabeca+grande+pecas&tag=menteativa06-20" target="_blank" rel="noopener noreferrer" class="link-row">
+        <div class="icon-box">🎨</div>
+        <div class="info-box">
+          <div class="title-row">
+            <span class="item-name">Quebra-Cabeça Peças Grandes</span>
+            <span class="tag-store tag-amazon">Amazon BR</span>
+          </div>
+          <div class="item-desc">Estimula a coordenação motora fina e a concentração.</div>
+        </div>
+        <span class="arrow">→</span>
+      </a>
+
+      <div class="section-label">Comunidade Mente Ativa</div>
+      <div class="social-grid">
+        <a href="https://www.youtube.com/@menteativa.letragrande" target="_blank" rel="noopener noreferrer" class="btn-net">▶️ YouTube Canal 1</a>
+        <a href="https://www.instagram.com/menteativa.letragrande/" target="_blank" rel="noopener noreferrer" class="btn-net">📸 Instagram Canal 1</a>
+      </div>
+    </div>
+
+    <footer>
+      <p>Como Associado e parceiro do Mercado Livre e da Amazon, recebemos comissão por compras qualificadas sem nenhum custo adicional para o comprador.</p>
+      <p style="margin-top: 4px;">© 2026 Operação Renda Extra. Todos os direitos reservados.</p>
+    </footer>
+  </div>
+
+  <script>
+    function setTab(tab) {
+      document.querySelectorAll('.tab-btn').forEach(b => b.classList.remove('active'));
+      document.querySelectorAll('.tab-panel').forEach(p => p.classList.remove('active'));
+      if (tab === 'mente') {
+        document.querySelector('.tab-btn.mente').classList.add('active');
+        document.getElementById('panel-mente').classList.add('active');
+      } else {
+        document.querySelector('.tab-btn.pod').classList.add('active');
+        document.getElementById('panel-pod').classList.add('active');
+      }
+    }
+    // Suporte a URL parametrizada: ?tab=mente ou ?tab=pod
+    const urlParams = new URLSearchParams(window.location.search);
+    const initialTab = urlParams.get('tab');
+    if (initialTab === 'mente') {
+      setTab('mente');
+    }
+  </script>
+</body>
+</html>
