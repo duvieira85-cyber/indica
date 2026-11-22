@@ -50,11 +50,11 @@
 **Tema:** Large print brain games, crosswords, word search and vision reading tools for English speakers.
 **Página Oficial:** `https://duvieira85-cyber.github.io/indica/?tab=brain`
 
-### Reading Tools & Puzzles
+### Official Paperback & Reading Tools
+* **📘 Big Print Brain Games for Seniors (100 Large Print Puzzles - Paperback):** [Amazon Global/US](https://www.amazon.com/dp/B0HS64RSVK) · [Amazon BR](https://www.amazon.com.br/dp/B0HS64RSVK?tag=menteativa06-20)
 * **🔍 12x Handheld Magnifier with Ultra-Bright LED:** [Ver no Mercado Livre](https://meli.la/1SPuBSQ) · [Ver na Shopee](https://s.shopee.com.br/1C9lifI8x)
 * **🛋️ Flexible Clamp Desk Reading Lamp:** [Ver no Mercado Livre](https://meli.la/1addkaX) · [Ver na Shopee](https://s.shopee.com.br/2gCuwd4ooI)
 * **🧩 Wooden Brain Teaser & Memory Blocks:** [Ver no Mercado Livre](https://meli.la/33FwD1J) · [Ver na Shopee](https://s.shopee.com.br/1qdnx6cJAo)
-* **📘 Large Print Crosswords & Puzzles:** [Ver na Amazon](https://www.amazon.com.br/s?k=large+print+word+search&tag=menteativa06-20)
 
 ---
 *Divulgação de Conformidade:*
