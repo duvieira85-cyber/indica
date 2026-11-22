@@ -14,6 +14,8 @@
 | **💡 Barra de Luz LED Screenbar** (Anti-reflexo p/ Monitor) | [Comprar no Meli](https://meli.la/16fpFoe) | [Comprar na Shopee](https://s.shopee.com.br/3B9BXVqWaW) |
 | **💻 Suporte Articulado Dobrável Alumínio Notebook** | [Comprar no Meli](https://meli.la/1ADVdqB) | [Comprar na Shopee](https://s.shopee.com.br/9AQOgY2oOY) |
 | **⏱️ Cubo Timer Pomodoro Digital c/ Sensor de Gravidade** | [Comprar no Meli](https://meli.la/1ja1CAN) | [Comprar na Shopee](https://s.shopee.com.br/6VPdVelkSO) |
+| **🎧 Headphone Bluetooth ANC c/ Cancelamento de Ruído** | [Comprar no Meli](https://meli.la/1C7yAcn) | [Comprar na Shopee](https://s.shopee.com.br/2VtUkHO7tz) |
+| **⌨️ Teclado Mecânico Compacto Silencioso sem Fio** | [Comprar no Meli](https://meli.la/1ADVdqB) | [Comprar na Shopee](https://s.shopee.com.br/9AQOgY2oOY) |
 | **🦶 Apoio Ergonômico de Pés c/ Massagem Home Office** | [Comprar no Meli](https://meli.la/1addkaX) | [Comprar na Shopee](https://s.shopee.com.br/2gCuwd4ooI) |
 | **📅 Planner Financeiro & Organizador de Metas** | [Comprar no Meli](https://meli.la/1ja1CAN) | [Comprar na Shopee](https://s.shopee.com.br/6VPdVelkSO) |
 | **🛋️ Luminária Articulada com Garra de Mesa** | [Comprar no Meli](https://meli.la/1addkaX) | [Comprar na Shopee](https://s.shopee.com.br/2gCuwd4ooI) |
@@ -23,7 +25,9 @@
 * **Hábitos Atômicos** (James Clear): `https://www.amazon.com.br/dp/8550807567?tag=menteativa06-20`
 * **Pai Rico, Pai Pobre** (Robert Kiyosaki): `https://www.amazon.com.br/dp/8550801488?tag=menteativa06-20`
 * **Essencialismo: A disciplinada busca por menos** (Greg McKeown): `https://www.amazon.com.br/dp/8543102146?tag=menteativa06-20`
+* **Sem Esforço: Torne mais fácil o que é mais importante** (Greg McKeown): `https://www.amazon.com.br/dp/8543110998?tag=menteativa06-20`
 * **Hiperfoco: Como gerenciar sua atenção** (Chris Bailey): `https://www.amazon.com.br/dp/8542217616?tag=menteativa06-20`
+* **Antifrágil: Coisas que se beneficiam com o caos** (Nassim Taleb): `https://www.amazon.com.br/dp/8547001085?tag=menteativa06-20`
 * **Os Segredos da Mente Milionária** (T. Harv Eker): `https://www.amazon.com.br/dp/8575422391?tag=menteativa06-20`
 * **Trabalhe 4 Horas por Semana** (Tim Ferriss): `https://www.amazon.com.br/dp/8542211561?tag=menteativa06-20`
 
@@ -42,7 +46,10 @@
 | **🔍 Lupa 12x com Iluminação LED para Leitura** | [Comprar no Meli](https://meli.la/1SPuBSQ) | [Comprar na Shopee](https://s.shopee.com.br/1C9lifI8x) |
 | **📖 Suporte Articulado de Madeira para Livros e Cadernos** | [Comprar no Meli](https://meli.la/1ADVdqB) | [Comprar na Shopee](https://s.shopee.com.br/9AQOgY2oOY) |
 | **🎲 Dominó em Madeira com Números Gigantes & Alto Contraste** | [Comprar no Meli](https://meli.la/33FwD1J) | [Comprar na Shopee](https://s.shopee.com.br/1qdnx6cJAo) |
+| **🎴 Baralho Especial com Letras & Números Gigantes** | [Comprar no Meli](https://meli.la/33FwD1J) | [Comprar na Shopee](https://s.shopee.com.br/1qdnx6cJAo) |
 | **⏰ Relógio Digital Calendário com Dígitos Gigantes** | [Comprar no Meli](https://meli.la/16fpFoe) | [Comprar na Shopee](https://s.shopee.com.br/3B9BXVqWaW) |
+| **🛋️ Almofada Ergonômica Lombar em Espuma de Memória** | [Comprar no Meli](https://meli.la/1addkaX) | [Comprar na Shopee](https://s.shopee.com.br/2gCuwd4ooI) |
+| **🧩 Quebra-Cabeça Terapêutico 3D em Madeira** | [Comprar no Meli](https://meli.la/33FwD1J) | [Comprar na Shopee](https://s.shopee.com.br/1qdnx6cJAo) |
 | **🛋️ Luminária Articulada de Mesa com Garra** | [Comprar no Meli](https://meli.la/1addkaX) | [Comprar na Shopee](https://s.shopee.com.br/2gCuwd4ooI) |
 | **🧩 Jogo da Memória em Madeira / Estimulação** | [Comprar no Meli](https://meli.la/33FwD1J) | [Comprar na Shopee](https://s.shopee.com.br/1qdnx6cJAo) |
 
@@ -61,6 +68,8 @@
 * **📘 Big Print Brain Games for Seniors (100 Large Print Puzzles - Paperback):** [Amazon Global/US](https://www.amazon.com/dp/B0HS64RSVK) · [Amazon BR](https://www.amazon.com.br/dp/B0HS64RSVK?tag=menteativa06-20)
 * **📄 3X Full Page Magnifier Sheet (PVC Fresnel Lens for Puzzles):** [Ver no Mercado Livre](https://meli.la/1SPuBSQ) · [Ver na Shopee](https://s.shopee.com.br/1C9lifI8x)
 * **📚 Ergonomic Wooden Book Stand & Lap Desk:** [Ver no Mercado Livre](https://meli.la/1ADVdqB) · [Ver na Shopee](https://s.shopee.com.br/9AQOgY2oOY)
+* **💡 Rechargeable Amber Reading Book Light (Blue Light Blocking Clip):** [Ver no Mercado Livre](https://meli.la/16fpFoe) · [Ver na Shopee](https://s.shopee.com.br/3B9BXVqWaW)
+* **🛋️ Ergonomic Memory Foam Lap Desk with Book Holder:** [Ver no Mercado Livre](https://meli.la/1addkaX) · [Ver na Shopee](https://s.shopee.com.br/2gCuwd4ooI)
 * **🔍 12x Handheld Magnifier with Ultra-Bright LED:** [Ver no Mercado Livre](https://meli.la/1SPuBSQ) · [Ver na Shopee](https://s.shopee.com.br/1C9lifI8x)
 * **🛋️ Flexible Clamp Desk Reading Lamp:** [Ver no Mercado Livre](https://meli.la/1addkaX) · [Ver na Shopee](https://s.shopee.com.br/2gCuwd4ooI)
 * **🧩 Wooden Brain Teaser & Memory Blocks:** [Ver no Mercado Livre](https://meli.la/33FwD1J) · [Ver na Shopee](https://s.shopee.com.br/1qdnx6cJAo)
