@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="theme-color" content="#0d0f12">
+  <meta name="theme-color" content="#090b0e">
   <meta name="description" content="Central Oficial de Indicações, Livros, Setup & Cadernos de Atividades.">
   <title>Central de Links & Indicações Oficiais</title>
   <style>
@@ -12,14 +12,20 @@
       --card-bg: #14181f;
       --card-hover: #1c222c;
       --border: rgba(255, 255, 255, 0.08);
-      --border-active: rgba(212, 168, 83, 0.6);
       --text: #f8fafc;
       --text-muted: #94a3b8;
       --gold: #d4a853;
       --gold-light: #edd08a;
       --blue: #3b82f6;
       --blue-light: #60a5fa;
+      --purple: #8b5cf6;
+      --purple-light: #a78bfa;
       --meli: #ffe600;
+      --meli-text: #1a1700;
+      --shopee: #ee4d2d;
+      --shopee-light: #ff7253;
+      --amazon: #fca311;
+      --hotmart: #ff5722;
     }
 
     * { box-sizing: border-box; margin: 0; padding: 0; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; }
@@ -39,7 +45,7 @@
 
     .container {
       width: 100%;
-      max-width: 520px;
+      max-width: 540px;
       display: flex;
       flex-direction: column;
       gap: 16px;
@@ -48,13 +54,13 @@
     /* Profile Header */
     .header {
       text-align: center;
-      margin-bottom: 4px;
+      margin-bottom: 6px;
     }
 
     .avatar-wrapper {
       position: relative;
-      width: 88px;
-      height: 88px;
+      width: 84px;
+      height: 84px;
       margin: 0 auto 12px;
     }
 
@@ -62,7 +68,7 @@
       width: 100%;
       height: 100%;
       border-radius: 50%;
-      background: linear-gradient(135deg, #2563eb, #d4a853);
+      background: linear-gradient(135deg, #2563eb, #d4a853, #ee4d2d);
       padding: 3px;
       box-shadow: 0 4px 20px rgba(0, 0, 0, 0.4);
     }
@@ -79,7 +85,7 @@
     }
 
     h1 {
-      font-size: 24px;
+      font-size: 23px;
       font-weight: 800;
       color: #ffffff;
       margin-bottom: 4px;
@@ -87,18 +93,18 @@
     }
 
     .tagline {
-      font-size: 14px;
+      font-size: 13.5px;
       color: var(--text-muted);
-      line-height: 1.4;
-      max-width: 440px;
+      line-height: 1.45;
+      max-width: 460px;
       margin: 0 auto;
     }
 
     /* Tabs Selector */
     .tabs-nav {
       display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 8px;
+      grid-template-columns: 1fr 1fr 1fr;
+      gap: 6px;
       background: rgba(255, 255, 255, 0.03);
       border: 1px solid var(--border);
       padding: 6px;
@@ -110,16 +116,17 @@
       background: transparent;
       border: none;
       color: var(--text-muted);
-      font-size: 13px;
+      font-size: 12px;
       font-weight: 700;
-      padding: 10px 14px;
+      padding: 10px 6px;
       border-radius: 10px;
       cursor: pointer;
       display: flex;
       align-items: center;
       justify-content: center;
-      gap: 6px;
+      gap: 4px;
       transition: all 0.2s ease;
+      text-align: center;
     }
 
     .tab-btn.active {
@@ -130,13 +137,18 @@
     }
 
     .tab-btn.active.pod {
-      border-color: rgba(212, 168, 83, 0.4);
+      border-color: rgba(212, 168, 83, 0.5);
       color: var(--gold-light);
     }
 
     .tab-btn.active.mente {
-      border-color: rgba(59, 130, 246, 0.4);
+      border-color: rgba(59, 130, 246, 0.5);
       color: var(--blue-light);
+    }
+
+    .tab-btn.active.brain {
+      border-color: rgba(139, 92, 246, 0.5);
+      color: var(--purple-light);
     }
 
     /* Section Panels */
@@ -162,12 +174,12 @@
       letter-spacing: 1.2px;
       font-weight: 700;
       color: var(--text-muted);
-      margin-top: 8px;
+      margin-top: 10px;
       margin-bottom: 2px;
       padding-left: 2px;
     }
 
-    /* Featured Hero Banner */
+    /* Hero Banners */
     .hero-card {
       border-radius: 16px;
       padding: 18px 20px;
@@ -175,8 +187,6 @@
       color: #ffffff;
       display: block;
       transition: transform 0.2s, box-shadow 0.2s;
-      position: relative;
-      overflow: hidden;
     }
 
     .hero-card:hover {
@@ -195,6 +205,12 @@
       box-shadow: 0 8px 24px rgba(37, 99, 235, 0.2);
     }
 
+    .hero-brain {
+      background: linear-gradient(135deg, #3b0764, #0f172a);
+      border: 1.5px solid rgba(139, 92, 246, 0.5);
+      box-shadow: 0 8px 24px rgba(139, 92, 246, 0.2);
+    }
+
     .pill-badge {
       display: inline-block;
       font-size: 10px;
@@ -208,6 +224,7 @@
 
     .hero-pod .pill-badge { background: #ffe600; color: #1e1b04; }
     .hero-mente .pill-badge { background: #f59e0b; color: #0f172a; }
+    .hero-brain .pill-badge { background: #a78bfa; color: #1e1b4b; }
 
     .hero-card h2 {
       font-size: 18px;
@@ -235,35 +252,38 @@
       gap: 6px;
     }
 
-    /* Cards */
-    .link-row {
+    /* Product Card with Dual Store Buttons */
+    .product-card {
       background: var(--card-bg);
       border: 1px solid var(--border);
       border-radius: 14px;
       padding: 14px 16px;
-      text-decoration: none;
-      color: var(--text);
       display: flex;
-      align-items: center;
-      gap: 14px;
-      transition: transform 0.2s, background-color 0.2s, border-color 0.2s;
+      flex-direction: column;
+      gap: 10px;
+      transition: border-color 0.2s, background-color 0.2s;
     }
 
-    .link-row:hover {
-      background: var(--card-hover);
+    .product-card:hover {
       border-color: rgba(255, 255, 255, 0.16);
-      transform: translateY(-2px);
+      background-color: var(--card-hover);
+    }
+
+    .product-header {
+      display: flex;
+      align-items: flex-start;
+      gap: 12px;
     }
 
     .icon-box {
-      width: 44px;
-      height: 44px;
-      border-radius: 11px;
+      width: 42px;
+      height: 42px;
+      border-radius: 10px;
       background: rgba(255, 255, 255, 0.05);
       display: flex;
       align-items: center;
       justify-content: center;
-      font-size: 22px;
+      font-size: 20px;
       flex-shrink: 0;
     }
 
@@ -272,20 +292,81 @@
       min-width: 0;
     }
 
-    .title-row {
-      display: flex;
-      align-items: center;
-      gap: 6px;
+    .item-name {
+      font-size: 14px;
+      font-weight: 700;
+      color: #ffffff;
       margin-bottom: 2px;
+      line-height: 1.35;
     }
 
-    .item-name {
-      font-size: 14.5px;
-      font-weight: 650;
+    .item-desc {
+      font-size: 12px;
+      color: var(--text-muted);
+      line-height: 1.4;
+    }
+
+    .store-buttons {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 8px;
+      margin-top: 2px;
+    }
+
+    .btn-store {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      padding: 8px 12px;
+      border-radius: 8px;
+      text-decoration: none;
+      font-size: 12px;
+      font-weight: 700;
+      transition: all 0.2s ease;
+    }
+
+    .btn-meli {
+      background: rgba(255, 230, 0, 0.12);
+      color: #ffe600;
+      border: 1px solid rgba(255, 230, 0, 0.3);
+    }
+
+    .btn-meli:hover {
+      background: #ffe600;
+      color: #1a1700;
+      transform: translateY(-1px);
+    }
+
+    .btn-shopee {
+      background: rgba(238, 77, 45, 0.12);
+      color: #ff7253;
+      border: 1px solid rgba(238, 77, 45, 0.3);
+    }
+
+    .btn-shopee:hover {
+      background: #ee4d2d;
       color: #ffffff;
-      white-space: nowrap;
-      overflow: hidden;
-      text-overflow: ellipsis;
+      transform: translateY(-1px);
+    }
+
+    /* Single Link Rows (Books / Digital) */
+    .link-row {
+      background: var(--card-bg);
+      border: 1px solid var(--border);
+      border-radius: 14px;
+      padding: 12px 14px;
+      text-decoration: none;
+      color: var(--text);
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      transition: transform 0.2s, background-color 0.2s, border-color 0.2s;
+    }
+
+    .link-row:hover {
+      background: var(--card-hover);
+      border-color: rgba(255, 255, 255, 0.16);
+      transform: translateY(-1px);
     }
 
     .tag-store {
@@ -298,15 +379,8 @@
       flex-shrink: 0;
     }
 
-    .tag-meli { background: rgba(255, 230, 0, 0.12); color: #ffe600; border: 1px solid rgba(255, 230, 0, 0.25); }
     .tag-amazon { background: rgba(252, 163, 17, 0.12); color: #fca311; border: 1px solid rgba(252, 163, 17, 0.25); }
     .tag-hotmart { background: rgba(255, 87, 34, 0.12); color: #ff5722; border: 1px solid rgba(255, 87, 34, 0.25); }
-
-    .item-desc {
-      font-size: 12.5px;
-      color: var(--text-muted);
-      line-height: 1.35;
-    }
 
     .arrow {
       color: var(--text-muted);
@@ -324,7 +398,7 @@
       display: grid;
       grid-template-columns: 1fr 1fr;
       gap: 8px;
-      margin-top: 8px;
+      margin-top: 6px;
     }
 
     .btn-net {
@@ -334,7 +408,7 @@
       padding: 10px;
       text-decoration: none;
       color: var(--text-muted);
-      font-size: 13px;
+      font-size: 12.5px;
       font-weight: 600;
       display: flex;
       align-items: center;
@@ -356,7 +430,7 @@
       line-height: 1.5;
       padding-top: 14px;
       border-top: 1px solid var(--border);
-      max-width: 440px;
+      max-width: 460px;
     }
   </style>
 </head>
@@ -369,114 +443,158 @@
         </div>
       </div>
       <h1>Central de Recomendações</h1>
-      <p class="tagline">Curadoria oficial de equipamentos, produtividade, livros e materiais para exercitar a mente.</p>
+      <p class="tagline">Curadoria oficial de equipamentos, produtividade, livros e materiais cognitivos com ofertas verificadas no Mercado Livre e Shopee.</p>
     </header>
 
-    <!-- Tab Selector -->
+    <!-- Tab Selector (3 Channels) -->
     <div class="tabs-nav">
-      <button class="tab-btn active pod" onclick="setTab('pod')">🎙️ Ponto de Virada Pod</button>
+      <button class="tab-btn active pod" onclick="setTab('pod')">🎙️ Ponto de Virada</button>
       <button class="tab-btn mente" onclick="setTab('mente')">🧠 Mente Ativa</button>
+      <button class="tab-btn brain" onclick="setTab('brain')">🧩 Big Print Games</button>
     </div>
 
     <!-- PANEL 1: PONTO DE VIRADA POD -->
     <div id="panel-pod" class="tab-panel active">
-      <!-- DESTAQUE MERCADO LIVRE -->
-      <a href="https://meli.la/1C7yAcn" target="_blank" rel="noopener noreferrer" class="hero-card hero-pod">
-        <span class="pill-badge">Destaque do Setup</span>
-        <h2>Kit Microfone Condensador USB Profissional</h2>
-        <p>Braço articulado, shock mount e pop filter. Áudio com clareza de estúdio no Mercado Livre.</p>
-        <div class="hero-btn">Conferir Oferta no Mercado Livre →</div>
-      </a>
+      <div class="section-label">Equipamentos & Setup (Mercado Livre & Shopee)</div>
 
-      <div class="section-label">Equipamentos & Gadgets de Produtividade</div>
-
-      <a href="https://meli.la/16fpFoe" target="_blank" rel="noopener noreferrer" class="link-row">
-        <div class="icon-box">💡</div>
-        <div class="info-box">
-          <div class="title-row">
-            <span class="item-name">Barra de Luz LED Screenbar</span>
-            <span class="tag-store tag-meli">Mercado Livre</span>
+      <!-- 1. Microfone -->
+      <div class="product-card">
+        <div class="product-header">
+          <div class="icon-box">🎙️</div>
+          <div class="info-box">
+            <div class="item-name">Kit Microfone Condensador USB Profissional</div>
+            <div class="item-desc">Braço articulado, shock mount e pop filter. Áudio nítido de estúdio para podcasts e reuniões.</div>
           </div>
-          <div class="item-desc">Iluminação para teclado sem reflexo na tela do monitor.</div>
         </div>
-        <span class="arrow">→</span>
-      </a>
+        <div class="store-buttons">
+          <a href="https://meli.la/1C7yAcn" target="_blank" rel="noopener noreferrer" class="btn-store btn-meli">
+            <span>Mercado Livre</span>
+            <span>→</span>
+          </a>
+          <a href="https://s.shopee.com.br/2VtUkHO7tz" target="_blank" rel="noopener noreferrer" class="btn-store btn-shopee">
+            <span>Shopee</span>
+            <span>→</span>
+          </a>
+        </div>
+      </div>
 
-      <a href="https://meli.la/1ja1CAN" target="_blank" rel="noopener noreferrer" class="link-row">
-        <div class="icon-box">📅</div>
-        <div class="info-box">
-          <div class="title-row">
-            <span class="item-name">Planner Financeiro & Metas</span>
-            <span class="tag-store tag-meli">Mercado Livre</span>
+      <!-- 2. Screenbar -->
+      <div class="product-card">
+        <div class="product-header">
+          <div class="icon-box">💡</div>
+          <div class="info-box">
+            <div class="item-name">Barra de Luz LED Screenbar p/ Monitor</div>
+            <div class="item-desc">Iluminação focada no teclado e mesa sem reflexo na tela. Reduz o cansaço visual.</div>
           </div>
-          <div class="item-desc">Controle de receitas, despesas e organização de hábitos.</div>
         </div>
-        <span class="arrow">→</span>
-      </a>
+        <div class="store-buttons">
+          <a href="https://meli.la/16fpFoe" target="_blank" rel="noopener noreferrer" class="btn-store btn-meli">
+            <span>Mercado Livre</span>
+            <span>→</span>
+          </a>
+          <a href="https://s.shopee.com.br/3B9BXVqWaW" target="_blank" rel="noopener noreferrer" class="btn-store btn-shopee">
+            <span>Shopee</span>
+            <span>→</span>
+          </a>
+        </div>
+      </div>
 
-      <a href="https://meli.la/1ADVdqB" target="_blank" rel="noopener noreferrer" class="link-row">
-        <div class="icon-box">💻</div>
-        <div class="info-box">
-          <div class="title-row">
-            <span class="item-name">Suporte Notebook Alumínio</span>
-            <span class="tag-store tag-meli">Mercado Livre</span>
+      <!-- 3. Suporte Notebook -->
+      <div class="product-card">
+        <div class="product-header">
+          <div class="icon-box">💻</div>
+          <div class="info-box">
+            <div class="item-name">Suporte Articulado em Alumínio Notebook</div>
+            <div class="item-desc">Ajuste ergonômico com 8 posições, melhora a postura e ventilação do laptop.</div>
           </div>
-          <div class="item-desc">8 níveis ergonômicos e design dobrável portátil.</div>
         </div>
-        <span class="arrow">→</span>
-      </a>
+        <div class="store-buttons">
+          <a href="https://meli.la/1ADVdqB" target="_blank" rel="noopener noreferrer" class="btn-store btn-meli">
+            <span>Mercado Livre</span>
+            <span>→</span>
+          </a>
+          <a href="https://s.shopee.com.br/9AQOgY2oOY" target="_blank" rel="noopener noreferrer" class="btn-store btn-shopee">
+            <span>Shopee</span>
+            <span>→</span>
+          </a>
+        </div>
+      </div>
 
-      <a href="https://meli.la/1addkaX" target="_blank" rel="noopener noreferrer" class="link-row">
-        <div class="icon-box">🛋️</div>
-        <div class="info-box">
-          <div class="title-row">
-            <span class="item-name">Luminária Articulada c/ Garra</span>
-            <span class="tag-store tag-meli">Mercado Livre</span>
+      <!-- 4. Planner Financeiro -->
+      <div class="product-card">
+        <div class="product-header">
+          <div class="icon-box">📅</div>
+          <div class="info-box">
+            <div class="item-name">Planner Financeiro & Metas Pessoais</div>
+            <div class="item-desc">Organizador permanente para controle de receitas, despesas e acompanhamento diário.</div>
           </div>
-          <div class="item-desc">Fixação prática para bancada e foco em leitura.</div>
         </div>
-        <span class="arrow">→</span>
-      </a>
+        <div class="store-buttons">
+          <a href="https://meli.la/1ja1CAN" target="_blank" rel="noopener noreferrer" class="btn-store btn-meli">
+            <span>Mercado Livre</span>
+            <span>→</span>
+          </a>
+          <a href="https://s.shopee.com.br/6VPdVelkSO" target="_blank" rel="noopener noreferrer" class="btn-store btn-shopee">
+            <span>Shopee</span>
+            <span>→</span>
+          </a>
+        </div>
+      </div>
 
-      <div class="section-label">Livros de Mentalidade & Dinheiro (Amazon BR)</div>
+      <!-- 5. Luminária Articulada -->
+      <div class="product-card">
+        <div class="product-header">
+          <div class="icon-box">🛋️</div>
+          <div class="info-box">
+            <div class="item-name">Luminária Articulável de Mesa c/ Garra</div>
+            <div class="item-desc">Fixação prática na bancada para leitura e gravação com múltiplos ângulos.</div>
+          </div>
+        </div>
+        <div class="store-buttons">
+          <a href="https://meli.la/1addkaX" target="_blank" rel="noopener noreferrer" class="btn-store btn-meli">
+            <span>Mercado Livre</span>
+            <span>→</span>
+          </a>
+          <a href="https://s.shopee.com.br/2gCuwd4ooI" target="_blank" rel="noopener noreferrer" class="btn-store btn-shopee">
+            <span>Shopee</span>
+            <span>→</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="section-label">Livros de Mentalidade & Finanças (Amazon BR)</div>
 
       <a href="https://www.amazon.com.br/dp/6555111100?tag=menteativa06-20" target="_blank" rel="noopener noreferrer" class="link-row">
         <div class="icon-box">📖</div>
         <div class="info-box">
-          <div class="title-row">
-            <span class="item-name">A Psicologia Financeira</span>
-            <span class="tag-store tag-amazon">Amazon BR</span>
-          </div>
-          <div class="item-desc">Morgan Housel — Lições atemporais sobre riqueza e tempo.</div>
+          <div class="item-name">A Psicologia Financeira</div>
+          <div class="item-desc">Morgan Housel — Lições atemporais sobre riqueza e comportamento.</div>
         </div>
+        <span class="tag-store tag-amazon">Amazon</span>
         <span class="arrow">→</span>
       </a>
 
       <a href="https://www.amazon.com.br/dp/8550807567?tag=menteativa06-20" target="_blank" rel="noopener noreferrer" class="link-row">
         <div class="icon-box">🎯</div>
         <div class="info-box">
-          <div class="title-row">
-            <span class="item-name">Hábitos Atômicos</span>
-            <span class="tag-store tag-amazon">Amazon BR</span>
-          </div>
-          <div class="item-desc">James Clear — O poder da melhora de 1% ao dia.</div>
+          <div class="item-name">Hábitos Atômicos</div>
+          <div class="item-desc">James Clear — Como mudanças de 1% geram resultados extraordinários.</div>
         </div>
+        <span class="tag-store tag-amazon">Amazon</span>
         <span class="arrow">→</span>
       </a>
 
       <a href="https://www.amazon.com.br/dp/8550801488?tag=menteativa06-20" target="_blank" rel="noopener noreferrer" class="link-row">
         <div class="icon-box">💼</div>
         <div class="info-box">
-          <div class="title-row">
-            <span class="item-name">Pai Rico, Pai Pobre</span>
-            <span class="tag-store tag-amazon">Amazon BR</span>
-          </div>
-          <div class="item-desc">Robert Kiyosaki — Ativos, passivos e liberdade.</div>
+          <div class="item-name">Pai Rico, Pai Pobre</div>
+          <div class="item-desc">Robert Kiyosaki — Ativos, passivos e inteligência financeira.</div>
         </div>
+        <span class="tag-store tag-amazon">Amazon</span>
         <span class="arrow">→</span>
       </a>
 
-      <div class="section-label">Canais Oficiais do Podcast</div>
+      <div class="section-label">Canal Oficial</div>
       <div class="social-grid">
         <a href="https://www.youtube.com/@pontodeviradapod" target="_blank" rel="noopener noreferrer" class="btn-net">▶️ YouTube Pod</a>
         <a href="https://www.instagram.com/pontodeviradapod/" target="_blank" rel="noopener noreferrer" class="btn-net">📸 Instagram Pod</a>
@@ -489,69 +607,166 @@
       <a href="https://go.hotmart.com/H108495962U" target="_blank" rel="noopener noreferrer" class="hero-card hero-mente">
         <span class="pill-badge">Caderno Completo</span>
         <h2>Caderno Mente Ativa (PDF para Imprimir)</h2>
-        <p>Mais de 250 desafios em letra grande: caça-palavras, 7 erros, labirintos e ditados com gabarito.</p>
+        <p>Mais de 250 desafios em letra grande: caça-palavras, 7 erros, labirintos e ditados com gabarito completo.</p>
         <div class="hero-btn">Acessar no Hotmart →</div>
       </a>
 
-      <div class="section-label">Recursos & Conforto para a Terceira Idade</div>
+      <div class="section-label">Acessórios de Leitura & Estímulo (Mercado Livre & Shopee)</div>
 
-      <a href="https://meli.la/1SPuBSQ" target="_blank" rel="noopener noreferrer" class="link-row">
-        <div class="icon-box">🔍</div>
-        <div class="info-box">
-          <div class="title-row">
-            <span class="item-name">Lupa 12x com Iluminação LED</span>
-            <span class="tag-store tag-meli">Mercado Livre</span>
+      <!-- Lupa LED -->
+      <div class="product-card">
+        <div class="product-header">
+          <div class="icon-box">🔍</div>
+          <div class="info-box">
+            <div class="item-name">Lupa 12x com Iluminação LED para Leitura</div>
+            <div class="item-desc">Leitura nítida e confortável com luz branca suave. Não cansa a vista ao ler livros e caça-palavras.</div>
           </div>
-          <div class="item-desc">Leitura nítida e confortável para a visão sem cansar a vista.</div>
         </div>
-        <span class="arrow">→</span>
-      </a>
+        <div class="store-buttons">
+          <a href="https://meli.la/1SPuBSQ" target="_blank" rel="noopener noreferrer" class="btn-store btn-meli">
+            <span>Mercado Livre</span>
+            <span>→</span>
+          </a>
+          <a href="https://s.shopee.com.br/1C9lifI8x" target="_blank" rel="noopener noreferrer" class="btn-store btn-shopee">
+            <span>Shopee</span>
+            <span>→</span>
+          </a>
+        </div>
+      </div>
 
-      <a href="https://www.amazon.com.br/s?k=jogo+de+memoria+idosos&tag=menteativa06-20" target="_blank" rel="noopener noreferrer" class="link-row">
-        <div class="icon-box">🧩</div>
-        <div class="info-box">
-          <div class="title-row">
-            <span class="item-name">Jogos de Memória e Cognição</span>
-            <span class="tag-store tag-amazon">Amazon BR</span>
+      <!-- Luminária Articulada -->
+      <div class="product-card">
+        <div class="product-header">
+          <div class="icon-box">🛋️</div>
+          <div class="info-box">
+            <div class="item-name">Luminária Articulada de Mesa com Garra</div>
+            <div class="item-desc">Fácil de prender na mesa ou cabeceira, ilumina com precisão a área de passatempos e leitura.</div>
           </div>
-          <div class="item-desc">Exercícios dinâmicos de raciocínio para praticar em família.</div>
         </div>
-        <span class="arrow">→</span>
-      </a>
+        <div class="store-buttons">
+          <a href="https://meli.la/1addkaX" target="_blank" rel="noopener noreferrer" class="btn-store btn-meli">
+            <span>Mercado Livre</span>
+            <span>→</span>
+          </a>
+          <a href="https://s.shopee.com.br/2gCuwd4ooI" target="_blank" rel="noopener noreferrer" class="btn-store btn-shopee">
+            <span>Shopee</span>
+            <span>→</span>
+          </a>
+        </div>
+      </div>
 
-      <a href="https://www.amazon.com.br/s?k=relogio+de+parede+numeros+grandes&tag=menteativa06-20" target="_blank" rel="noopener noreferrer" class="link-row">
-        <div class="icon-box">⏰</div>
-        <div class="info-box">
-          <div class="title-row">
-            <span class="item-name">Relógio de Parede Números Grandes</span>
-            <span class="tag-store tag-amazon">Amazon BR</span>
+      <!-- Jogo de Memória Madeira -->
+      <div class="product-card">
+        <div class="product-header">
+          <div class="icon-box">🧩</div>
+          <div class="info-box">
+            <div class="item-name">Jogo da Memória & Cognição em Madeira</div>
+            <div class="item-desc">Peças grandes e táteis em madeira, estimula a memória visual, atenção e coordenação motora.</div>
           </div>
-          <div class="item-desc">Facilita a visualização das horas e a rotina da casa.</div>
         </div>
-        <span class="arrow">→</span>
-      </a>
-
-      <a href="https://www.amazon.com.br/s?k=quebra+cabeca+grande+pecas&tag=menteativa06-20" target="_blank" rel="noopener noreferrer" class="link-row">
-        <div class="icon-box">🎨</div>
-        <div class="info-box">
-          <div class="title-row">
-            <span class="item-name">Quebra-Cabeça Peças Grandes</span>
-            <span class="tag-store tag-amazon">Amazon BR</span>
-          </div>
-          <div class="item-desc">Estimula a coordenação motora fina e a concentração.</div>
+        <div class="store-buttons">
+          <a href="https://meli.la/33FwD1J" target="_blank" rel="noopener noreferrer" class="btn-store btn-meli">
+            <span>Mercado Livre</span>
+            <span>→</span>
+          </a>
+          <a href="https://s.shopee.com.br/1qdnx6cJAo" target="_blank" rel="noopener noreferrer" class="btn-store btn-shopee">
+            <span>Shopee</span>
+            <span>→</span>
+          </a>
         </div>
-        <span class="arrow">→</span>
-      </a>
+      </div>
 
-      <div class="section-label">Comunidade Mente Ativa</div>
+      <div class="section-label">Canal Oficial</div>
       <div class="social-grid">
-        <a href="https://www.youtube.com/@menteativa.letragrande" target="_blank" rel="noopener noreferrer" class="btn-net">▶️ YouTube Canal 1</a>
-        <a href="https://www.instagram.com/menteativa.letragrande/" target="_blank" rel="noopener noreferrer" class="btn-net">📸 Instagram Canal 1</a>
+        <a href="https://www.youtube.com/@menteativa.letragrande" target="_blank" rel="noopener noreferrer" class="btn-net">▶️ YouTube Canal</a>
+        <a href="https://www.instagram.com/menteativa.letragrande/" target="_blank" rel="noopener noreferrer" class="btn-net">📸 Instagram Canal</a>
+      </div>
+    </div>
+
+    <!-- PANEL 3: BIG PRINT BRAIN GAMES -->
+    <div id="panel-brain" class="tab-panel">
+      <!-- DESTAQUE GLOBAL -->
+      <a href="https://www.amazon.com.br/s?k=large+print+word+search&tag=menteativa06-20" target="_blank" rel="noopener noreferrer" class="hero-card hero-brain">
+        <span class="pill-badge">Brain Health & Puzzles</span>
+        <h2>Big Print Brain Games Collection</h2>
+        <p>Large print crosswords, word search, and cognitive challenges designed for adults and seniors.</p>
+        <div class="hero-btn">Explore Puzzles & Books →</div>
+      </a>
+
+      <div class="section-label">Reading Tools & Ergonomics (Mercado Livre & Shopee)</div>
+
+      <!-- 12x Magnifier -->
+      <div class="product-card">
+        <div class="product-header">
+          <div class="icon-box">🔍</div>
+          <div class="info-box">
+            <div class="item-name">12x Handheld Magnifier with LED Light</div>
+            <div class="item-desc">Clear distortion-free magnification for books, newspapers and puzzle grids.</div>
+          </div>
+        </div>
+        <div class="store-buttons">
+          <a href="https://meli.la/1SPuBSQ" target="_blank" rel="noopener noreferrer" class="btn-store btn-meli">
+            <span>Mercado Livre</span>
+            <span>→</span>
+          </a>
+          <a href="https://s.shopee.com.br/1C9lifI8x" target="_blank" rel="noopener noreferrer" class="btn-store btn-shopee">
+            <span>Shopee</span>
+            <span>→</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Desk Reading Lamp -->
+      <div class="product-card">
+        <div class="product-header">
+          <div class="icon-box">🛋️</div>
+          <div class="info-box">
+            <div class="item-name">Flexible Clamp Desk Reading Lamp</div>
+            <div class="item-desc">Adjustable goose-neck light with clamp for table or bed reading comfort.</div>
+          </div>
+        </div>
+        <div class="store-buttons">
+          <a href="https://meli.la/1addkaX" target="_blank" rel="noopener noreferrer" class="btn-store btn-meli">
+            <span>Mercado Livre</span>
+            <span>→</span>
+          </a>
+          <a href="https://s.shopee.com.br/2gCuwd4ooI" target="_blank" rel="noopener noreferrer" class="btn-store btn-shopee">
+            <span>Shopee</span>
+            <span>→</span>
+          </a>
+        </div>
+      </div>
+
+      <!-- Wooden Brain Teaser -->
+      <div class="product-card">
+        <div class="product-header">
+          <div class="icon-box">🧩</div>
+          <div class="info-box">
+            <div class="item-name">Wooden Memory & Brain Teaser Blocks</div>
+            <div class="item-desc">Tactile wooden puzzles that stimulate cognitive agility and hand-eye coordination.</div>
+          </div>
+        </div>
+        <div class="store-buttons">
+          <a href="https://meli.la/33FwD1J" target="_blank" rel="noopener noreferrer" class="btn-store btn-meli">
+            <span>Mercado Livre</span>
+            <span>→</span>
+          </a>
+          <a href="https://s.shopee.com.br/1qdnx6cJAo" target="_blank" rel="noopener noreferrer" class="btn-store btn-shopee">
+            <span>Shopee</span>
+            <span>→</span>
+          </a>
+        </div>
+      </div>
+
+      <div class="section-label">Official Channel</div>
+      <div class="social-grid">
+        <a href="https://www.youtube.com/@bigprintbraingames" target="_blank" rel="noopener noreferrer" class="btn-net">▶️ YouTube Channel</a>
+        <a href="https://www.youtube.com/@menteativa.letragrande" target="_blank" rel="noopener noreferrer" class="btn-net">🧠 Versão em Português</a>
       </div>
     </div>
 
     <footer>
-      <p>Como Associado e parceiro do Mercado Livre e da Amazon, recebemos comissão por compras qualificadas sem nenhum custo adicional para o comprador.</p>
+      <p>Como Associado e parceiro do Mercado Livre, Shopee e Amazon, recebemos comissão por compras qualificadas sem nenhum custo adicional para o comprador.</p>
       <p style="margin-top: 4px;">© 2026 Operação Renda Extra. Todos os direitos reservados.</p>
     </footer>
   </div>
@@ -563,16 +778,21 @@
       if (tab === 'mente') {
         document.querySelector('.tab-btn.mente').classList.add('active');
         document.getElementById('panel-mente').classList.add('active');
+      } else if (tab === 'brain') {
+        document.querySelector('.tab-btn.brain').classList.add('active');
+        document.getElementById('panel-brain').classList.add('active');
       } else {
         document.querySelector('.tab-btn.pod').classList.add('active');
         document.getElementById('panel-pod').classList.add('active');
       }
     }
-    // Suporte a URL parametrizada: ?tab=mente ou ?tab=pod
+    // Suporte a URL parametrizada: ?tab=mente, ?tab=pod, ?tab=brain
     const urlParams = new URLSearchParams(window.location.search);
     const initialTab = urlParams.get('tab');
     if (initialTab === 'mente') {
       setTab('mente');
+    } else if (initialTab === 'brain') {
+      setTab('brain');
     }
   </script>
 </body>
