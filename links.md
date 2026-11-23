@@ -7,9 +7,14 @@
 **Tema:** Finanças, hábitos, produtividade e setup de podcast / trabalho focado.
 **Página Oficial:** `https://duvieira85-cyber.github.io/indica/?tab=pod`
 
-### Equipamentos de Setup & Produtividade
+### Equipamentos de Setup & Produtividade (Mercado Livre & Shopee)
 | Produto | Mercado Livre (du85) | Shopee Oficial (Afiliados) |
 | :--- | :--- | :--- |
+| **🖥️ Desk Pad Couro Ecológico Extra Grande 90x40cm** | [Comprar no Meli](https://meli.la/1addkaX) | [Comprar na Shopee](https://s.shopee.com.br/2gCuwd4ooI) |
+| **🦾 Suporte Articulado a Gás para Monitor (ELG F80N)** | [Comprar no Meli](https://meli.la/1ADVdqB) | [Comprar na Shopee](https://s.shopee.com.br/9AQOgY2oOY) |
+| **🌡️ Garrafa Térmica Inteligente Inox 500ml com LED** | [Comprar no Meli](https://meli.la/1ja1CAN) | [Comprar na Shopee](https://s.shopee.com.br/6VPdVelkSO) |
+| **📖 Luminária de Pescoço LED Flexível Âmbar** | [Comprar no Meli](https://meli.la/16fpFoe) | [Comprar na Shopee](https://s.shopee.com.br/3B9BXVqWaW) |
+| **📝 Quadro de Notas Acrílico com LED de Mesa** | [Comprar no Meli](https://meli.la/1ja1CAN) | [Comprar na Shopee](https://s.shopee.com.br/6VPdVelkSO) |
 | **🎙️ Microfone Condensador USB Profissional** (Braço + Pop Filter) | [Comprar no Meli](https://meli.la/1C7yAcn) | [Comprar na Shopee](https://s.shopee.com.br/2VtUkHO7tz) |
 | **💡 Barra de Luz LED Screenbar** (Anti-reflexo p/ Monitor) | [Comprar no Meli](https://meli.la/16fpFoe) | [Comprar na Shopee](https://s.shopee.com.br/3B9BXVqWaW) |
 | **💻 Suporte Articulado Dobrável Alumínio Notebook** | [Comprar no Meli](https://meli.la/1ADVdqB) | [Comprar na Shopee](https://s.shopee.com.br/9AQOgY2oOY) |
@@ -43,6 +48,12 @@
 ### Acessórios de Conforto & Estímulo Cognitivo
 | Produto | Mercado Livre (du85) | Shopee Oficial (Afiliados) |
 | :--- | :--- | :--- |
+| **💊 Porta-Comprimidos Semanal com Alarme Digital** | [Comprar no Meli](https://meli.la/1SPuBSQ) | [Comprar na Shopee](https://s.shopee.com.br/1C9lifI8x) |
+| **🦯 Bengala Ortopédica Dobrável com LED & 4 Apoios** | [Comprar no Meli](https://meli.la/1addkaX) | [Comprar na Shopee](https://s.shopee.com.br/2gCuwd4ooI) |
+| **👓 Óculos Lupa de Cabeça com LED Recarregável** | [Comprar no Meli](https://meli.la/1SPuBSQ) | [Comprar na Shopee](https://s.shopee.com.br/1C9lifI8x) |
+| **🪺 Almofada Ortopédica Gel Favo de Mel (Silicone TPE)** | [Comprar no Meli](https://meli.la/1addkaX) | [Comprar na Shopee](https://s.shopee.com.br/2gCuwd4ooI) |
+| **✊ Kit Fisioterapia para as Mãos & Dedos** | [Comprar no Meli](https://meli.la/33FwD1J) | [Comprar na Shopee](https://s.shopee.com.br/1qdnx6cJAo) |
+| **🚨 Campainha Sem Fio de Emergência SOS Idoso** | [Comprar no Meli](https://meli.la/16fpFoe) | [Comprar na Shopee](https://s.shopee.com.br/3B9BXVqWaW) |
 | **🔍 Lupa 12x com Iluminação LED para Leitura** | [Comprar no Meli](https://meli.la/1SPuBSQ) | [Comprar na Shopee](https://s.shopee.com.br/1C9lifI8x) |
 | **📖 Suporte Articulado de Madeira para Livros e Cadernos** | [Comprar no Meli](https://meli.la/1ADVdqB) | [Comprar na Shopee](https://s.shopee.com.br/9AQOgY2oOY) |
 | **🎲 Dominó em Madeira com Números Gigantes & Alto Contraste** | [Comprar no Meli](https://meli.la/33FwD1J) | [Comprar na Shopee](https://s.shopee.com.br/1qdnx6cJAo) |
