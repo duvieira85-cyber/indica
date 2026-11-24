@@ -88,3 +88,11 @@
 ---
 *Divulgação de Conformidade:*
 "Como participantes dos programas de afiliados do Mercado Livre, Shopee, Amazon e Hotmart, recebemos comissão por compras qualificadas sem nenhum custo adicional para o comprador."
+
+### Novos Links (23/11/2026)
+| Produto | Canal | Mercado Livre (du85) |
+| :--- | :--- | :--- |
+| Método Estimulação Cognitiva Idosos 60+ | Mente Ativa | https://meli.la/1wAtWyW |
+| Planner Financeiro Permanente | Ponto de Virada | https://meli.la/1HtPcp4 |
+| Jogos de Memória e Raciocínio para Idosos | Mente Ativa | https://meli.la/2e9g8SR |
+| Kit de Jogos Cognitivos para Idosos | Mente Ativa | https://meli.la/16g6a4C |
