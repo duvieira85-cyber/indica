@@ -98,3 +98,5 @@
 | Planner Financeiro Permanente | Ponto de Virada | https://meli.la/1HtPcp4 |
 | Jogos de Memória e Raciocínio para Idosos | Mente Ativa | https://meli.la/2e9g8SR |
 | Kit de Jogos Cognitivos para Idosos | Mente Ativa | https://meli.la/16g6a4C |
+| Caderno Inteligente A5 80 Folhas Preto Básico | Ponto de Virada | https://meli.la/1wEKJ2L |
+| Relógio de Parede Números Grandes 25cm | Mente Ativa | https://meli.la/2988tqy |
