@@ -25,6 +25,7 @@
 | **📅 Planner Financeiro & Organizador de Metas** | [Comprar no Meli](https://meli.la/1ja1CAN) | [Comprar na Shopee](https://s.shopee.com.br/6VPdVelkSO) |
 | **🛋️ Luminária Articulada com Garra de Mesa** | [Comprar no Meli](https://meli.la/1addkaX) | [Comprar na Shopee](https://s.shopee.com.br/2gCuwd4ooI) |
 | **📓 Caderno Inteligente A5 80 Folhas Preto Básico** | [Comprar no Meli](https://meli.la/1wEKJ2L) | — |
+| **🖱️ Mouse Sem Fio Logitech MX Vertical Ergonômico** | [Comprar no Meli](https://meli.la/1RkTYhh) | — |
 
 ### Livros Recomendados (Amazon BR — tag: menteativa06-20)
 * **A Psicologia Financeira** (Morgan Housel): `https://www.amazon.com.br/dp/6555111100?tag=menteativa06-20`
@@ -65,6 +66,7 @@
 | **🛋️ Luminária Articulada de Mesa com Garra** | [Comprar no Meli](https://meli.la/1addkaX) | [Comprar na Shopee](https://s.shopee.com.br/2gCuwd4ooI) |
 | **🧩 Jogo da Memória em Madeira / Estimulação** | [Comprar no Meli](https://meli.la/33FwD1J) | [Comprar na Shopee](https://s.shopee.com.br/1qdnx6cJAo) |
 | **🕒 Relógio de Parede Números Grandes 25cm** | [Comprar no Meli](https://meli.la/2988tqy) | — |
+| **📚 Kit 30 Livros Caça-Palavras Letrão** | [Comprar no Meli](https://meli.la/2XgX92K) | — |
 
 ### Livros & Jogos de Memória (Amazon BR — tag: menteativa06-20)
 * **Jogos de Memória para Idosos:** `https://www.amazon.com.br/s?k=jogo+de+memoria+idosos&tag=menteativa06-20`
@@ -100,3 +102,5 @@
 | Kit de Jogos Cognitivos para Idosos | Mente Ativa | https://meli.la/16g6a4C |
 | Caderno Inteligente A5 80 Folhas Preto Básico | Ponto de Virada | https://meli.la/1wEKJ2L |
 | Relógio de Parede Números Grandes 25cm | Mente Ativa | https://meli.la/2988tqy |
+| Mouse Sem Fio Logitech MX Vertical | Ponto de Virada | https://meli.la/1RkTYhh |
+| Kit 30 Livros Caça-Palavras Letrão | Mente Ativa | https://meli.la/2XgX92K |
