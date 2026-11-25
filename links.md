@@ -24,6 +24,7 @@
 | **🦶 Apoio Ergonômico de Pés c/ Massagem Home Office** | [Comprar no Meli](https://meli.la/1addkaX) | [Comprar na Shopee](https://s.shopee.com.br/2gCuwd4ooI) |
 | **📅 Planner Financeiro & Organizador de Metas** | [Comprar no Meli](https://meli.la/1ja1CAN) | [Comprar na Shopee](https://s.shopee.com.br/6VPdVelkSO) |
 | **🛋️ Luminária Articulada com Garra de Mesa** | [Comprar no Meli](https://meli.la/1addkaX) | [Comprar na Shopee](https://s.shopee.com.br/2gCuwd4ooI) |
+| **📓 Caderno Inteligente A5 80 Folhas Preto Básico** | [Comprar no Meli](https://meli.la/1wEKJ2L) | — |
 
 ### Livros Recomendados (Amazon BR — tag: menteativa06-20)
 * **A Psicologia Financeira** (Morgan Housel): `https://www.amazon.com.br/dp/6555111100?tag=menteativa06-20`
@@ -63,6 +64,7 @@
 | **🧩 Quebra-Cabeça Terapêutico 3D em Madeira** | [Comprar no Meli](https://meli.la/33FwD1J) | [Comprar na Shopee](https://s.shopee.com.br/1qdnx6cJAo) |
 | **🛋️ Luminária Articulada de Mesa com Garra** | [Comprar no Meli](https://meli.la/1addkaX) | [Comprar na Shopee](https://s.shopee.com.br/2gCuwd4ooI) |
 | **🧩 Jogo da Memória em Madeira / Estimulação** | [Comprar no Meli](https://meli.la/33FwD1J) | [Comprar na Shopee](https://s.shopee.com.br/1qdnx6cJAo) |
+| **🕒 Relógio de Parede Números Grandes 25cm** | [Comprar no Meli](https://meli.la/2988tqy) | — |
 
 ### Livros & Jogos de Memória (Amazon BR — tag: menteativa06-20)
 * **Jogos de Memória para Idosos:** `https://www.amazon.com.br/s?k=jogo+de+memoria+idosos&tag=menteativa06-20`
