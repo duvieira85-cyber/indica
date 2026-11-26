@@ -104,3 +104,5 @@
 | Relógio de Parede Números Grandes 25cm | Mente Ativa | https://meli.la/2988tqy |
 | Mouse Sem Fio Logitech MX Vertical | Ponto de Virada | https://meli.la/1RkTYhh |
 | Kit 30 Livros Caça-Palavras Letrão | Mente Ativa | https://meli.la/2XgX92K |
+| Lupa de Mão Ortho Pauher Retrátil com LED | Mente Ativa | https://meli.la/1LQChXH |
+| Microfone USB de Mesa Yanmai GM-610 Preto | Ponto de Virada | https://meli.la/1rBFKUY |
