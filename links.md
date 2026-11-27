@@ -106,3 +106,5 @@
 | Kit 30 Livros Caça-Palavras Letrão | Mente Ativa | https://meli.la/2XgX92K |
 | Lupa de Mão Ortho Pauher Retrátil com LED | Mente Ativa | https://meli.la/1LQChXH |
 | Microfone USB de Mesa Yanmai GM-610 Preto | Ponto de Virada | https://meli.la/1rBFKUY |
+| Apoio de Leitura para Livro e Tablet Ajustável de Madeira Marrom | Mente Ativa | https://meli.la/2Q15P3s |
+| Luminária De Mesa Dapon Articulada Abajur Modelo Pixar Preta | Ponto de Virada | https://meli.la/2vPbYHg |
